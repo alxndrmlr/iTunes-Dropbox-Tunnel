@@ -1,1 +1,28 @@
-This is a test. Hello World!
+
+
+iTunes Dropbox Tunnel
+
+By: Alexander Millar and Thomas Millar
+
+Version: 1.0
+
+
+These scripts will enable you to share either the current track you are listening to or the current album with a friend. 
+
+Release Notes:
+	- Supports one-to-one sharing
+	- Requires manual setup of Folder Actions and shared folders
+	
+Setup:
+  1. Get a friend
+  2. Setup two shared folders on dropbox with said friend
+       ~/dropbox/for-friend-1
+       ~/dropbox/for-friend-2
+  3. If you are friend-1 then map the on-add-import-to-itunes.scpt to the folder actions scripts for the for-friend-1 folder, do the opposite for friend-2
+  4. Change the ________ variables in share-track.scpt and share-album.scpt to point to the dropbox folders you setup.
+  5. Once both friends have done steps 1-4 you can invoke the script when playing a song in iTunes and start sharing music with each other.
+  
+To Do:
+  - Extend support to many-to-many
+  - Create a simpler installation process
+
